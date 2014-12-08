@@ -4,13 +4,13 @@ module.exports = (grunt) ->
       content:
         options:
           repository: 'git@github.com:gregoryjscott/content.git'
-          branch: 'master'
+          branch: 'work'
           directory: '_tmp/content'
 
       design:
         options:
           repository: 'git@github.com:gregoryjscott/roomy.git'
-          branch: 'master'
+          branch: 'recommend'
           directory: '_tmp/design'
 
     jekyll:
