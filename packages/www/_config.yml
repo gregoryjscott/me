@@ -1,6 +1,9 @@
-exclude: [LICENSE, README.md, Gemfile, Gemfile.lock, Gruntfile.coffee, package.json, package-lock.json, Rakefile, node_modules]
+exclude: [LICENSE, README.md, Gemfile, Gemfile.lock, Gruntfile.coffee, package.json, package-lock.json, Rakefile, node_modules, tsconfig.json, prep.ts]
 markdown: kramdown
 permalink: pretty
+
+paginate: 9
+paginate_path: "/blog/page:num/"
 
 defaults:
 - scope:
@@ -21,6 +24,12 @@ defaults:
     layout: "language"
 
 - scope:
+    path: "os"
+    type: "pages"
+  values:
+    layout: "os"
+
+- scope:
     path: "db"
     type: "pages"
   values:
@@ -31,3 +40,15 @@ defaults:
     type: "pages"
   values:
     layout: "tool"
+
+- scope:
+    path: "schools"
+    type: "pages"
+  values:
+    layout: "school"
+
+- scope:
+    path: "jobs"
+    type: "pages"
+  values:
+    layout: "job"

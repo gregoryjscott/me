@@ -1,0 +1,48 @@
+main:
+  - title: "Home"
+    url: "/"
+    button: 0
+
+  - title: "Resume"
+    url: "resume/"
+    button: 0
+
+  - title: "CV"
+    url: "cv/"
+    button: 0
+
+  - title: "Projects"
+    url: "projects/"
+    button: 0
+
+  - title: "Languages"
+    url: "languages/"
+    button: 0
+
+  - title: "Databases"
+    url: "db/"
+    button: 0
+  
+  - title: "Operating Systems"
+    url: "os/"
+    button: 0
+  
+  - title: "Tools"
+    url: "tools/"
+    button: 0
+  
+  - title: "Schools"
+    url: "schools/"
+    button: 0
+  
+  - title: "Jobs"
+    url: "jobs/"
+    button: 0
+  
+  - title: "Blog"
+    url: "blog/"
+    button: 0
+
+  - title: "Contacts"
+    url: "contacts/"
+    button: 1

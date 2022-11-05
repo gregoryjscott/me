@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+{% assign ui_text = site.data.ui-text['ui_text'] %}
+
+<div class="section spacer"></div>
+
+<div class="section bread">
+	<div class="content">
+		<div class="h-subtitle">
+			<p><a href="{{ site.url }}">{{ ui_text.home }}</a> / <a href="{{ site.url }}/os">Operating Systems</a> / <a href="{{ page.url }}">{{ page.title }}</a></p>
+		</div>
+  </div>
+</div>
+
+<div class="section title">
+	<div class="content">
+		<h1>{{ page.title }}</h1>
+    {% if page.desc %}
+    <p>{{ page.desc }}</p>
+    {% endif %}
+	</div>
+</div>
+
+{% if page._embedded.projects %}
+<div class="section">
+	<div class="content">
+    <h2>Projects</h2>
+    {% for item in page._embedded.projects %}
+    {% include projects/summary.html project=item %}
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+
+{% if page._embedded.jobs %}
+<div class="section">
+	<div class="content">
+    <h2>Jobs</h2>
+    {% for item in page._embedded.jobs %}
+      {% include jobs/summary.html job=item %}
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
