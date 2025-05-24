@@ -1,0 +1,33 @@
+exclude: [LICENSE, README.md, Gemfile, Gemfile.lock, Gruntfile.coffee, package.json, package-lock.json, Rakefile, node_modules]
+markdown: kramdown
+permalink: pretty
+
+defaults:
+- scope:
+    path: ""
+  values:
+      layout: default
+
+- scope:
+    path: "projects"
+    type: "pages"
+  values:
+    layout: "project"
+
+- scope:
+    path: "languages"
+    type: "pages"
+  values:
+    layout: "language"
+
+- scope:
+    path: "db"
+    type: "pages"
+  values:
+    layout: "db"
+
+- scope:
+    path: "tools"
+    type: "pages"
+  values:
+    layout: "tool"

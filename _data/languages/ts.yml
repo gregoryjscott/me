@@ -1,0 +1,6 @@
+title: Typescript
+desc: TypeScript is JavaScript with syntax for types.
+_links:
+  projects:
+    - title: EpiCloud
+      href: /projects/epicloud/
