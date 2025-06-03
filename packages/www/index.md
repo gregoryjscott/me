@@ -14,12 +14,19 @@ _links:
 ---
 
 <article markdown="1">
-__Programming is my passion.__
+__Hi, I'm Greg.__
 
 I've programmed servers, PC, Macs, smartphones, tablets, mainframes, hand-held range finders, GPS devices, lasers mounted to planes, calculators, and B-1 Bombers.
 
-My [projects](/projects) have used an impressive spectrum of [languages](/languages), [tools](/tools), and [databases](/db). Feel free to browse my [resume](/resume).
+My current passion is building React Native apps using state machines.
 
-I'm currently searching for my next challenge. Please don't hesitate to <a href="mailto:me@gregoryjscott.com">contact me</a> if I might be of service to you.
+Project highlights from my career include:
+
+- [EpiCloud](/projects/epicloud)
+- [Quality Bank](/projects/qb)
+- [SIF Agent](/projects/sif-agent)
+- [B-1 Mission Data Loader](/projects/mission-data-loader)
+
+Please browse my [resume](/resume) and <a href="mailto:me@gregoryjscott.com">contact me</a> if I can be of service to you.
 
 </article>
