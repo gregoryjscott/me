@@ -90,6 +90,14 @@ footer p {
   margin: 1rem;
 }
 
+footer a:link {
+  color: #FFF;
+}
+
+footer a:visited {
+  color: #FFF;
+}
+
 a:link {
   color: var(--text-primary);
 }
