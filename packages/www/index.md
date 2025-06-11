@@ -14,6 +14,9 @@ _links:
 ---
 
 <article markdown="1">
+Hi, I'm Greg.
+
+Check out my [resume](/resume)!
 
 I've programmed <span id="typed"></span>
 <span id="typed-strings">
@@ -33,12 +36,6 @@ I've programmed <span id="typed"></span>
   <span>calculators</span>, and
   <span>B-1 Bombers</span>.
 </span>
-
-Check out my [resume](/resume). Project highlights include:
-
-- [EpiCloud](/projects/epicloud)
-- [Quality Bank](/projects/qb)
-- [B-1 Mission Data Loader](/projects/mission-data-loader)
 
 If you need help with your technology, [contact me](mailto:me@gregoryjscott.com).
 
