@@ -15,8 +15,6 @@ _links:
 
 <article markdown="1">
 
-__Hi, I'm Greg.__
-
 I've programmed <span id="typed"></span>
 <span id="typed-strings">
   <span>servers</span>,
@@ -45,7 +43,11 @@ Project highlights from my career include:
 - [SIF Agent](/projects/sif-agent)
 - [B-1 Mission Data Loader](/projects/mission-data-loader)
 
-Please browse my [resume](/resume) and <a href="mailto:me@gregoryjscott.com">contact me</a> if I can be of service to you.
+Check out my [resume](/resume) and <a href="mailto:me@gregoryjscott.com">contact me</a> if I can be of service to you.
+
+Thanks for visiting.
+
+Greg
 
 </article>
 
@@ -58,9 +60,9 @@ Please browse my [resume](/resume) and <a href="mailto:me@gregoryjscott.com">con
   document.addEventListener('DOMContentLoaded', function () {
     var typed = new Typed('#typed', {
       stringsElement: '#typed-strings',
-      typeSpeed: 50,
-      backSpeed: 20,
-      backDelay: 1500,
+      typeSpeed: 30,
+      backSpeed: 30,
+      backDelay: 5000,
       contentType: 'html',
       loop: true,
       onBegin: (self) => {
