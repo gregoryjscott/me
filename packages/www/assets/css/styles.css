@@ -1,6 +1,7 @@
 :root {
-  --text-primary: #212838;
-  --background-primary: #ffffff;
+  --text-primary: #ffffff;
+  --text-secondary: #d1d7e0;
+  --background-primary: #212838;
 }
 
 html {
@@ -9,7 +10,7 @@ html {
 
 body {
   font-family: "Roboto Mono", monospace;
-  color: var(--text-primary);
+  color: var(--text-secondary);
   background-color: var(--background-primary);
   min-height: 100vh;
   display: flex;
@@ -82,8 +83,8 @@ footer {
   text-align: center;
   padding: 2rem 0;
   margin-top: 2rem;
-  background-color: var(--text-primary);
-  color: var(--background-primary);
+  color: var(--text-secondary);
+  background-color: var(--background-primary);
 }
 
 footer p {
@@ -91,11 +92,11 @@ footer p {
 }
 
 footer a:link {
-  color: #FFF;
+  color: var(--text-primary);
 }
 
 footer a:visited {
-  color: #FFF;
+  color: var(--text-primary);
 }
 
 a:link {
