@@ -14,9 +14,7 @@ _links:
 ---
 
 <article markdown="1">
-Hi, I'm Greg.
-
-Check out my [resume](/resume)!
+Hello,
 
 I've programmed <span id="typed"></span>
 <span id="typed-strings">
@@ -37,7 +35,9 @@ I've programmed <span id="typed"></span>
   <span>B-1 Bombers</span>.
 </span>
 
-[Contact me](mailto:me@gregoryjscott.com) if I can be of service to you.
+Check out my [resume](/resume).
+
+[Reach out](mailto:me@gregoryjscott.com) if you'd like to work together.
 
 Thanks for visiting.
 
