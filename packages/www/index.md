@@ -51,17 +51,17 @@ Greg
     if (s[s.length - 1] === '.') return s;
     return s + '.';
   };
-  document.addEventListener('DOMContentLoaded', function () {
-    var typed = new Typed('#typed', {
-      stringsElement: '#typed-strings',
-      typeSpeed: 30,
-      backSpeed: 30,
-      backDelay: 4000,
-      contentType: 'html',
-      loop: true,
-      onBegin: (self) => {
-        self.strings = self.strings.map(addPeriod);
-      },
-    });
-  });
+  // document.addEventListener('DOMContentLoaded', function () {
+  //   var typed = new Typed('#typed', {
+  //     stringsElement: '#typed-strings',
+  //     typeSpeed: 30,
+  //     backSpeed: 30,
+  //     backDelay: 4000,
+  //     contentType: 'html',
+  //     loop: true,
+  //     onBegin: (self) => {
+  //       self.strings = self.strings.map(addPeriod);
+  //     },
+  //   });
+  // });
 </script>
