@@ -34,16 +34,13 @@ I've programmed <span id="typed"></span>
   <span>B-1 Bombers</span>.
 </span>
 
-My current passion is building React Native apps using state machines.
-
-Project highlights from my career include:
+Check out my [resume](/resume). Project highlights include:
 
 - [EpiCloud](/projects/epicloud)
 - [Quality Bank](/projects/qb)
-- [SIF Agent](/projects/sif-agent)
 - [B-1 Mission Data Loader](/projects/mission-data-loader)
 
-Check out my [resume](/resume) and <a href="mailto:me@gregoryjscott.com">contact me</a> if I can be of service to you.
+If you need help with your technology, [contact me](mailto:me@gregoryjscott.com).
 
 Thanks for visiting.
 
