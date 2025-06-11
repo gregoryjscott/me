@@ -37,7 +37,7 @@ I've programmed <span id="typed"></span>
   <span>B-1 Bombers</span>.
 </span>
 
-If you need help with your technology, [contact me](mailto:me@gregoryjscott.com).
+[Contact me](mailto:me@gregoryjscott.com) if I can be of service to you.
 
 Thanks for visiting.
 
@@ -56,7 +56,7 @@ Greg
       stringsElement: '#typed-strings',
       typeSpeed: 30,
       backSpeed: 30,
-      backDelay: 5000,
+      backDelay: 4000,
       contentType: 'html',
       loop: true,
       onBegin: (self) => {
