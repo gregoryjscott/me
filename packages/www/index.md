@@ -16,7 +16,7 @@ _links:
 <article markdown="1">
 Hello,
 
-Check out my [resume](/resume).
+Check out my [resume](/resume/).
 
 I've programmed <span id="typed"></span>
 <span id="typed-strings">
