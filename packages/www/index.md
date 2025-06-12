@@ -16,6 +16,8 @@ _links:
 <article markdown="1">
 Hello,
 
+Check out my [resume](/resume).
+
 I've programmed <span id="typed"></span>
 <span id="typed-strings">
   <span>servers</span>,
@@ -34,8 +36,6 @@ I've programmed <span id="typed"></span>
   <span>calculators</span>, and
   <span>B-1 Bombers</span>.
 </span>
-
-Check out my [resume](/resume).
 
 [Reach out](mailto:me@gregoryjscott.com) if you'd like to work together.
 
