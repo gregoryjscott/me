@@ -1,6 +1,7 @@
 :root {
-  --text-primary: #212838;
-  --background-primary: #ffffff;
+  --text-primary: #ffffff;
+  --text-secondary: #d1d7e0;
+  --background-primary: #212838;
 }
 
 html {
@@ -9,14 +10,18 @@ html {
 
 body {
   font-family: "Roboto Mono", monospace;
-  color: var(--text-primary);
+  color: var(--text-secondary);
   background-color: var(--background-primary);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 main {
   margin: 0 auto 2rem auto;
   max-width: 1060px;
   padding: 0 2rem;
+  flex: 1;
 }
 
 nav {
@@ -72,6 +77,26 @@ ul {
 li {
   line-height: 2rem;
   margin-top: 1.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 2rem;
+  color: var(--text-secondary);
+  background-color: var(--background-primary);
+}
+
+footer p {
+  margin: 1rem;
+}
+
+footer a:link {
+  color: var(--text-primary);
+}
+
+footer a:visited {
+  color: var(--text-primary);
 }
 
 a:link {
