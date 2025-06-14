@@ -61,7 +61,6 @@ p {
 }
 
 a {
-  font-weight: bold;
   line-height: 2rem;
   color: var(--text-secondary);
   font-weight: bold;
