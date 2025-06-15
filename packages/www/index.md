@@ -13,29 +13,29 @@ _links:
     href: /
 ---
 
-<article markdown="1">
+<section markdown="1">
+
 Hello,
 
 Check out my [resume](/resume/).
 
 I've programmed <span id="typed"></span>
 <span id="typed-strings">
-  <span>servers</span>,
-  <span>clouds</span>,
-  <span>PCs</span>,
-  <span>Macs</span>,
-  <span>iPhones</span>,
-  <span>Androids</span>,
-  <span>iPads</span>,
-  <span>Chromebooks</span>,
-  <span>TVs</span>,
-  <span>mainframes</span>,
-  <span>hand-held range finders</span>,
-  <span>GPS devices</span>,
-  <span>lasers mounted to planes</span>,
-  <span>calculators</span>, and
-  <span>B-1 Bombers</span>.
-</span>
+<span>servers</span>,
+<span>clouds</span>,
+<span>PCs</span>,
+<span>Macs</span>,
+<span>iPhones</span>,
+<span>Androids</span>,
+<span>iPads</span>,
+<span>Chromebooks</span>,
+<span>TVs</span>,
+<span>mainframes</span>,
+<span>hand-held range finders</span>,
+<span>GPS devices</span>,
+<span>lasers mounted to planes</span>,
+<span>calculators</span>, and
+<span>B-1 Bombers</span>.
 
 [Reach out](mailto:me@gregoryjscott.com) if you'd like to work together.
 
@@ -43,7 +43,7 @@ Thanks for visiting.
 
 Greg
 
-</article>
+</section>
 
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 <script>
