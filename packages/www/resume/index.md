@@ -3,11 +3,13 @@ title: Gregory J. Scott
 layout: default
 ---
 
+<nav>
+  <a href="{{ site.url }}">Home</a> /
+  <a href="{{ site.url }}/resume">Resume</a>
+</nav>
+
 <section markdown="1">
-* web: [http://gregoryjscott.com][g]
-* email: [me@gregoryjscott.com][email]
-* github: [https://github.com/gregoryjscott][github]
-* twitter: [https://twitter.com/gregoryjscott][twitter]
+{% include resume/contact.md %}
 </section>
 
 <section markdown="1">
@@ -22,7 +24,3 @@ layout: default
 {% include resume/education.md %}
 </section>
 
-[g]: http://gregoryjscott.com
-[email]: mailto:me@gregoryjscott.com
-[twitter]: https://twitter.com/gregoryjscott
-[github]: https://github.com/gregoryjscott
