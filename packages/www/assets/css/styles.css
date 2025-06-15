@@ -12,12 +12,16 @@ body {
   font-family: "Roboto Mono", monospace;
   color: var(--text-primary);
   background-color: var(--background-primary);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 main {
   margin: 0 auto 2rem auto;
   max-width: 1060px;
   padding: 0 2rem;
+  flex: 1;
 }
 
 nav {
@@ -74,6 +78,26 @@ ul {
 li {
   line-height: 2rem;
   margin-top: 1.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 2rem;
+  background-color: var(--text-primary);
+  color: var(--background-primary);
+}
+
+footer p {
+  margin: 1rem;
+}
+
+footer a:link {
+  color: var(--background-primary);
+}
+
+footer a:visited {
+  color: var(--background-primary);
 }
 
 a:link {
