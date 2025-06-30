@@ -35,9 +35,7 @@ function embedLinkedResources(
           .filter(Boolean)
       } else {
         const linkedResource = findResource(links, resources)
-        if (linkedResource) {
-          linkedResources = { ...linkedResource[version].data }
-        }
+        linkedResources = { ...linkedResource[version].data }
       }
 
       if (typeof linkedResources !== "undefined") {
