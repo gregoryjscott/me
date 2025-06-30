@@ -12,12 +12,12 @@ import {
 
 const resources: Resource[] = getResources()
 const nonIndexResources = resources.filter(r => !r.isIndex)
-const projects = nonIndexResources.filter(r => r.relationName === "projects")
-const schools = nonIndexResources.filter(r => r.relationName === "schools")
+const projects = nonIndexResources.filter(r => r.relation === "projects")
+const schools = nonIndexResources.filter(r => r.relation === "schools")
 const targetResources = nonIndexResources.filter(
-  r => r.relationName !== "projects" && r.relationName !== "schools"
+  r => r.relation !== "projects" && r.relation !== "schools"
 )
-const jobs = targetResources.filter(r => r.relationName === "jobs")
+const jobs = targetResources.filter(r => r.relation === "jobs")
 
 function fixSelfLinks() {
   for (const resource of resources) {
@@ -110,7 +110,7 @@ function fixBackLinks() {
     for (const projectLink of projectLinks) {
       const project = findResource(projectLink, projects)
       const projectRelations = findRelations(project).filter(
-        pr => pr !== "jobs" // TODO - aka skills
+        pr => pr !== "jobs"
       )
       for (const relation of projectRelations) {
         const projectRelationLinks = [].concat(
@@ -138,7 +138,7 @@ function fixBackLinks() {
 function fixIndexLinks() {
   for (const directory of resourceDirectories) {
     const directoryResources = nonIndexResources.filter(
-      r => r.relationName === directory
+      r => r.relation === directory
     )
     if (directoryResources.length === 0) continue
     const filePath = `${directory}/index.md`
