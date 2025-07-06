@@ -41,6 +41,8 @@ _links:
     - href: /os/linux/
     - href: /os/macos/
     - href: /os/windows/
+  devices:
+    - href: /devices/mac/
 ---
 
 - Built the cloud-based backend integration and automation services for one of the largest online charter schools in the United States
